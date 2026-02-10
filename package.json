@@ -1,0 +1,41 @@
+{
+  "name": "@yashaiguy/sales-page-copywriting",
+  "version": "1.0.0",
+  "description": "Sales page copywriting skill for Claude. Generates high-converting sales page copy using hostile validation methodology with 5 visitor personas across 25 validation angles.",
+  "type": "module",
+  "bin": {
+    "sales-page-copywriting": "./bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill/"
+  ],
+  "keywords": [
+    "claude",
+    "skill",
+    "sales-page",
+    "copywriting",
+    "conversion-optimization",
+    "landing-page",
+    "marketing-copy",
+    "ai",
+    "validation",
+    "sales-copy"
+  ],
+  "author": "yashaiguy",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashaiguy-dev/Sales-Page-Copywriting-Skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yashaiguy-dev/Sales-Page-Copywriting-Skill/issues"
+  },
+  "homepage": "https://github.com/yashaiguy-dev/Sales-Page-Copywriting-Skill#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
