@@ -26,7 +26,15 @@ Sales Page Copywriting is a Claude skill that:
 npx @yashaiguy/sales-page-copywriting
 ```
 
-This will automatically install the skill to your Claude skills directory.
+This will automatically install the skill to **all available Claude locations**:
+
+| Platform | Location |
+|----------|----------|
+| **Claude Code** (CLI) | `~/.claude/skills/sales-page-copywriting/` |
+| **Agents** (Global/Shared) | `~/.agents/skills/sales-page-copywriting/` |
+| **Claude Desktop** (macOS) | `~/Library/Application Support/Claude/skills/user/sales-page-copywriting/` |
+| **Claude Desktop** (Windows) | `%APPDATA%\Claude\skills\user\sales-page-copywriting\` |
+| **Claude Desktop** (Linux) | `~/.config/Claude/skills/user/sales-page-copywriting/` |
 
 ### Manual Installation
 
@@ -38,7 +46,10 @@ This will automatically install the skill to your Claude skills directory.
 
 ### Verify Installation
 
-After installation, restart Claude if it's already running. The skill will be available as `/sales-page-copywriting`.
+After installation, restart Claude if it's already running. The skill will be available as `/sales-page-copywriting` in:
+- Claude Code (CLI)
+- Claude Desktop app
+- Claude.ai (syncs automatically)
 
 ## Usage
 
@@ -230,10 +241,12 @@ See the [examples directory](./examples) for:
 ### Skill not showing up in Claude
 
 1. Make sure you restarted Claude after installation
-2. Check that the skill is in the correct directory:
-   - macOS: `~/Library/Application Support/Claude/skills/user/sales-page-copywriting/`
-   - Windows: `%APPDATA%\Claude\skills\user\sales-page-copywriting\`
-   - Linux: `~/.config/Claude/skills/user/sales-page-copywriting/`
+2. Check that the skill is in at least one of these directories:
+   - **Claude Code**: `~/.claude/skills/sales-page-copywriting/`
+   - **Agents (Global)**: `~/.agents/skills/sales-page-copywriting/`
+   - **Claude Desktop (macOS)**: `~/Library/Application Support/Claude/skills/user/sales-page-copywriting/`
+   - **Claude Desktop (Windows)**: `%APPDATA%\Claude\skills\user\sales-page-copywriting\`
+   - **Claude Desktop (Linux)**: `~/.config/Claude/skills/user/sales-page-copywriting/`
 3. Verify that `SKILL.md` has proper frontmatter (name, description)
 
 ### Installation fails
