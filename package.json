@@ -1,6 +1,6 @@
 {
   "name": "@yashaiguy/sales-page-copywriting",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sales page copywriting skill for Claude. Generates high-converting sales page copy using hostile validation methodology with 5 visitor personas across 25 validation angles.",
   "type": "module",
   "bin": {
