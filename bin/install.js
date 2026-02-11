@@ -60,7 +60,7 @@ async function install() {
   try {
     console.log('🚀 Installing Sales Page Copywriting skill for Claude...\n');
 
-    const sourceDir = path.join(__dirname, '..', 'skill');
+    const sourceDir = path.join(__dirname, '..', 'skills', 'sales-page-copywriting');
 
     // Check if source exists
     if (!await fs.pathExists(sourceDir)) {

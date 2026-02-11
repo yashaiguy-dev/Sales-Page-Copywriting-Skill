@@ -1,0 +1,17 @@
+{
+  "name": "sales-page-copywriting",
+  "version": "1.0.1",
+  "description": "Generate battle-tested sales page copy through hostile validation with 5 visitor personas across 25 validation angles",
+  "author": {
+    "name": "yashaiguy",
+    "url": "https://github.com/yashaiguy-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashaiguy-dev/Sales-Page-Copywriting-Skill"
+  },
+  "skills": [
+    "sales-page-copywriting"
+  ],
+  "strict": false
+}

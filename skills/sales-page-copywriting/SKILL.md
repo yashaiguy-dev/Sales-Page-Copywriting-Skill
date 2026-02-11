@@ -1,5 +1,6 @@
 ---
 name: sales-page-copywriting
+version: 1.0.1
 description: Generate battle-tested sales page copy through hostile validation, output only polished final copy
 ---
 
