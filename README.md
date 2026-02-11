@@ -20,13 +20,32 @@ Sales Page Copywriting is a Claude skill that:
 
 ## Installation
 
-### Quick Install via npx
+### Option 1: Skills CLI (Recommended - Works with ALL IDEs)
+
+```bash
+npx skills add yashaiguy-dev/Sales-Page-Copywriting-Skill --global --yes
+```
+
+This installs to **all supported AI coding agents**:
+
+| Agent | Status |
+|-------|--------|
+| **Antigravity** | ✅ Supported |
+| **Claude Code** | ✅ Supported |
+| **Continue** | ✅ Supported |
+| **Cursor** | ✅ Supported |
+| **Gemini CLI** | ✅ Supported |
+| **OpenCode** | ✅ Supported |
+| **Replit** | ✅ Supported |
+| **Windsurf** | ✅ Supported |
+
+### Option 2: Direct npm Install (Claude only)
 
 ```bash
 npx @yashaiguy/sales-page-copywriting
 ```
 
-This will automatically install the skill to **all available Claude locations**:
+This installs to Claude-specific locations:
 
 | Platform | Location |
 |----------|----------|
@@ -36,7 +55,7 @@ This will automatically install the skill to **all available Claude locations**:
 | **Claude Desktop** (Windows) | `%APPDATA%\Claude\skills\user\sales-page-copywriting\` |
 | **Claude Desktop** (Linux) | `~/.config/Claude/skills/user/sales-page-copywriting/` |
 
-### Manual Installation
+### Option 3: Manual Installation
 
 1. Clone or download this repository
 2. Run the installation script:
@@ -46,10 +65,7 @@ This will automatically install the skill to **all available Claude locations**:
 
 ### Verify Installation
 
-After installation, restart Claude if it's already running. The skill will be available as `/sales-page-copywriting` in:
-- Claude Code (CLI)
-- Claude Desktop app
-- Claude.ai (syncs automatically)
+After installation, restart your IDE if it's already running. The skill will be available as `/sales-page-copywriting`.
 
 ## Usage
 
